@@ -37,4 +37,4 @@ JavaScript: For adding interactivity and dynamic effects.
 
 
 ## Video Demonstration
-For a video demonstration of the application, please visit the following link: [Live Demo](https://ctt-vaishnavi.github.io/PERSONAL-PORTFOLIO-WEBPAGE/)
+For a video demonstration of the application, please visit the following link: [Video Link](https://ctt-vaishnavi.github.io/PERSONAL-PORTFOLIO-WEBPAGE/)

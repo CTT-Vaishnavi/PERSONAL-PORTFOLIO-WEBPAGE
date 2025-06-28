@@ -27,8 +27,8 @@ JavaScript: For adding interactivity and dynamic effects.
 
 Output
 
-![image alt](https://github.com/CTT-Vaishnavi/INTERACTIVE-QUIZ-APPLICATION/blob/main/output1.png?raw=true)
-![image alt](https://github.com/CTT-Vaishnavi/INTERACTIVE-QUIZ-APPLICATION/blob/main/output.png?raw=true)
+![image alt](https://raw.githubusercontent.com/CTT-Vaishnavi/PERSONAL-PORTFOLIO-WEBPAGE/78a4126b91b93ece5defc520f703ed3ca41ccc58/Screenshot%202025-06-28%20171107.png)
+![image alt](https://raw.githubusercontent.com/CTT-Vaishnavi/PERSONAL-PORTFOLIO-WEBPAGE/78a4126b91b93ece5defc520f703ed3ca41ccc58/Screenshot%202025-06-28%20171120.png)
 
 ## Video Demonstration
 For a video demonstration of the application, please visit the following link: [Video Link](https://ctt-vaishnavi.github.io/INTERACTIVE-QUIZ-APPLICATION/)

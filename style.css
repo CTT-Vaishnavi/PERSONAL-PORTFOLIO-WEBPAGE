@@ -513,31 +513,9 @@ hero .content h2{
       padding: 80px 20px;
       background-color: #f8101031;
       text-align: center;
+    gap: 20px;
   }
-  #contactpage h2 {
-      font-size: 2rem;
-      margin-bottom: 20px;
-  }
-    #contactpage .paragraph {
-        font-size: 1.2rem;
-        line-height: 1.6;
-        max-width: 900px;
-        margin: auto;
-        margin-bottom: 30px;
-    }
-    #contactpage ul {
-        list-style: none;
-        padding: 0;
-    }
-    #contactpage ul li {
-        font-size: 1.2rem;
-        margin: 10px 0;
-    }
-    #contactpage ul li a {
-        color: var(--primary-color);
-        text-decoration: none;
-        transition: color 0.3s ease;
-    }
-    #contactpage ul li a:hover {
-        color: coral;
-    }
+
+
+  
+    

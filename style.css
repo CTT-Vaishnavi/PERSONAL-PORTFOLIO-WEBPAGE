@@ -252,7 +252,7 @@ hero .content h2{
         margin-top: 20px;
     }
  }
- #aboutpage{
+ /* #aboutpage{
     padding: 20px;
     background-color: #f8101031;
     }
@@ -279,22 +279,7 @@ hero .content h2{
         font-size: 1.3rem;
         line-height: 1.6;
     }
-    #aboutpage button{
-
-       margin: 2rem auto;
-        padding: 0.5% 1.3%;
-        background-color: var(--primary-color);
-        font-size: 1.3rem;
-        border-radius: 10px ;
-        cursor: pointer;
-        transition: transform 0.2s ease;
-        box-shadow: 0 5px 0 #222;
-        text-align: center;
-    }
-    #aboutpage button a{
-        text-decoration: none;
-        color: var(--secondary-color);
-    }
+   
     #myskills{
         font-size: 2rem;
         margin-top: 1%;
@@ -363,4 +348,196 @@ hero .content h2{
         text-decoration: none;
         color: var(--secondary-color);
         font-size: 1.5rem;
+    }
+  */
+
+  /* ABOUT SECTION */
+  #aboutpage {
+      padding: 60px 20px;
+      background-color: #f8101031;
+      text-align: center;
+  }
+
+  #aboutskill {
+      font-size: 2rem;
+      margin-bottom: 20px;
+  }
+
+  #aboutskill::after {
+      content: "";
+      display: block;
+      width: 100px;
+      height: 3px;
+      background-color: var(--primary-color);
+      margin: 10px auto;
+  }
+
+  #aboutpage .paragraph {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: auto;
+  }
+
+   #aboutpage button , .btn {
+
+       margin: 2rem auto;
+       padding: 0.5% 1.3%;
+       background-color: var(--primary-color);
+       font-size: 1.3rem;
+       border-radius: 10px;
+       cursor: pointer;
+       transition: transform 0.2s ease;
+       box-shadow: 0 5px 0 #222;
+       text-align: center;
+   }
+
+   #aboutpage button a, .btn a {
+       text-decoration: none;
+       color: var(--secondary-color);
+   }
+
+  /* SKILLS SECTION */
+  #total-skills {
+      padding: 80px 20px;
+      text-align: center;
+  }
+
+  #myskills {
+      font-size: 2rem;
+      margin-bottom: 40px;
+  }
+
+  #myskills::after {
+      content: "";
+      display: block;
+      width: 100px;
+      height: 3px;
+      background-color: var(--primary-color);
+      margin: 10px auto;
+  }
+
+  .total-skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+  }
+
+  .skill {
+      width: 280px;
+      min-height: 200px;
+      background-color: var(--primary-color);
+      color: var(--secondary-color);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 12px;
+      padding: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+
+
+  .skill:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .skill i {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+  }
+
+  .skill h3 {
+      font-size: 1.4rem;
+      margin-bottom: 8px;
+  }
+
+  .skill p {
+      font-size: 1rem;
+      text-align: center;
+  }
+
+  /* EDUCATION SECTION */
+  #education-field {
+      padding: 80px 20px;
+      background-color: #f4f4f4;
+      text-align: center;
+  }
+
+  #educationpage {
+      font-size: 2rem;
+      margin-bottom: 40px;
+  }
+
+  #educationpage::after {
+      content: "";
+      display: block;
+      width: 100px;
+      height: 3px;
+      background-color: var(--primary-color);
+      margin: 10px auto;
+  }
+
+  .education {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+  }
+
+  .edu {
+      width: 300px;
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+  }
+
+  .edu:hover {
+      transform: translateY(-5px);
+  }
+
+  .edu h3 {
+      margin-bottom: 10px;
+      color: var(--primary-color);
+  }
+
+  .edu p {
+      font-size: 0.95rem;
+  }
+  #contactpage {
+      padding: 80px 20px;
+      background-color: #f8101031;
+      text-align: center;
+  }
+  #contactpage h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+  }
+    #contactpage .paragraph {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        max-width: 900px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    #contactpage ul {
+        list-style: none;
+        padding: 0;
+    }
+    #contactpage ul li {
+        font-size: 1.2rem;
+        margin: 10px 0;
+    }
+    #contactpage ul li a {
+        color: var(--primary-color);
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    #contactpage ul li a:hover {
+        color: coral;
     }

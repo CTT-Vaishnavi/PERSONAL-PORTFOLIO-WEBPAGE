@@ -128,9 +128,7 @@
 
         .hero .content i {
             font-size: 24px;
-            margin: 0 10px;
-            color: #333;
-            cursor: pointer;
+            
         }
 
         .hero .content i:hover {

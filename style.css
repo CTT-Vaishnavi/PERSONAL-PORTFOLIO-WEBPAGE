@@ -39,15 +39,20 @@ header nav div a {
 header nav div a:hover {
   border: 2px solid aqua;
   border-radius: 10% 20%;
+  cursor: none;
 }
 header nav li {
   margin: 2%;
 }
 header nav li a {
   text-decoration: none;
-  font-size: 1.5 rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
-  color: var(--secondary-color);
+  color: var(--primary-color);
+}
+header nav li a:hover {
+  color: coral;
+  text-decoration: underline;
 }
 .menu.toggle {
   font-size: 2rem;

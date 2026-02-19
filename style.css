@@ -255,6 +255,15 @@ hero .content h2 {
   .img-container {
     margin-top: 20px;
   }
+    .hero .content button{
+      margin: 0.5rem;
+      margin-top: 1.5rem;
+      font-size: 1rem;
+    }
+      .social-icons {
+        font-size: 1rem;
+        margin: 0.5rem;
+        }
 }
 
 /* ABOUT SECTION */
@@ -550,6 +559,7 @@ button[type="submit"] {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 .intershipcard{
@@ -576,4 +586,32 @@ button[type="submit"] {
 .intershipcard p {
   font-size: 0.95rem;
   text-align: justify;
+}
+.contact-info input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+
+projects {
+  text-align: center;
+  background-color: #f8101031;
+}
+.projectrecord {
+  padding: 80px 20px;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.projectrecord::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background-color: var(--primary-color);
+  margin: 10px auto;
 }
